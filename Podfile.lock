@@ -1,0 +1,20 @@
+PODS:
+  - DataCache (1.4)
+  - LinearProgressBarMaterial (1.3)
+
+DEPENDENCIES:
+  - DataCache
+  - LinearProgressBarMaterial
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DataCache
+    - LinearProgressBarMaterial
+
+SPEC CHECKSUMS:
+  DataCache: 58345b1a6c12fed9919fe4c00716ede7bc7e8142
+  LinearProgressBarMaterial: 84df3135c27a0fc5e0219da10ee98304de159b06
+
+PODFILE CHECKSUM: 32dd1d22461936edfefbce2168b7167144b8cbf7
+
+COCOAPODS: 1.6.1

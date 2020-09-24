@@ -1,0 +1,1106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004B94052A3C9432B3DE7737 /* Pods_QR_Code_Interview_QuestionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D85BCC309D88703F6DABE9B /* Pods_QR_Code_Interview_QuestionTests.framework */; };
+		01000D6C409FC723C2E7F470 /* Pods_QR_Code_Interview_QuestionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113A295523661CB27FCAECFB /* Pods_QR_Code_Interview_QuestionUITests.framework */; };
+		D90C46782203367E00E2F651 /* QuestionSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90C46772203367E00E2F651 /* QuestionSetViewController.swift */; };
+		D90DD8B522019B75006CCFD2 /* openingsfirstpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90DD8B422019B75006CCFD2 /* openingsfirstpageViewController.swift */; };
+		D91147AF220AC494008E8994 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91147AE220AC494008E8994 /* DemoViewController.swift */; };
+		D911B0FB220ACE9900ECE2DF /* newScannViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911B0FA220ACE9900ECE2DF /* newScannViewController.swift */; };
+		D9196B8021FEC0310036EB9E /* generateOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9196B7F21FEC0310036EB9E /* generateOTPViewController.swift */; };
+		D9196B8221FEC0530036EB9E /* SetupnewpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9196B8121FEC0530036EB9E /* SetupnewpasswordViewController.swift */; };
+		D91B584F21F75240007DA45D /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B583921F75240007DA45D /* IQTextView.swift */; };
+		D91B585021F75240007DA45D /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B583B21F75240007DA45D /* IQPreviousNextView.swift */; };
+		D91B585121F75240007DA45D /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B583C21F75240007DA45D /* IQTitleBarButtonItem.swift */; };
+		D91B585221F75240007DA45D /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B583D21F75240007DA45D /* IQBarButtonItem.swift */; };
+		D91B585321F75240007DA45D /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B583E21F75240007DA45D /* IQToolbar.swift */; };
+		D91B585421F75240007DA45D /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B583F21F75240007DA45D /* IQUIView+IQKeyboardToolbar.swift */; };
+		D91B585521F75240007DA45D /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584021F75240007DA45D /* IQInvocation.swift */; };
+		D91B585621F75240007DA45D /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584221F75240007DA45D /* IQKeyboardManagerConstantsInternal.swift */; };
+		D91B585721F75240007DA45D /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584321F75240007DA45D /* IQKeyboardManagerConstants.swift */; };
+		D91B585821F75240007DA45D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D91B584521F75240007DA45D /* IQKeyboardManager.bundle */; };
+		D91B585921F75240007DA45D /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584621F75240007DA45D /* IQKeyboardReturnKeyHandler.swift */; };
+		D91B585A21F75240007DA45D /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584721F75240007DA45D /* IQKeyboardManager.swift */; };
+		D91B585B21F75240007DA45D /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584A21F75240007DA45D /* IQUIScrollView+Additions.swift */; };
+		D91B585C21F75240007DA45D /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584B21F75240007DA45D /* IQUIViewController+Additions.swift */; };
+		D91B585D21F75240007DA45D /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584C21F75240007DA45D /* IQUITextFieldView+Additions.swift */; };
+		D91B585E21F75240007DA45D /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584D21F75240007DA45D /* IQUIView+Hierarchy.swift */; };
+		D91B585F21F75240007DA45D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91B584E21F75240007DA45D /* IQNSArray+Sort.swift */; };
+		D924F9B322017A78007096F8 /* Cell__companyopeningTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924F9B222017A78007096F8 /* Cell__companyopeningTableViewCell.swift */; };
+		D925446021F98B5E004576CC /* personalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925445F21F98B5E004576CC /* personalViewController.swift */; };
+		D925446221F98B90004576CC /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925446121F98B90004576CC /* resultsViewController.swift */; };
+		D925446421F98D0E004576CC /* companiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925446321F98D0E004576CC /* companiesViewController.swift */; };
+		D925446621F98F24004576CC /* bookedtestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925446521F98F24004576CC /* bookedtestViewController.swift */; };
+		D925446821F98F34004576CC /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925446721F98F34004576CC /* testViewController.swift */; };
+		D925446A21F99840004576CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925446921F99840004576CC /* Constant.swift */; };
+		D92FDE10221E9F9A000CE79E /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE0F221E9F9A000CE79E /* validation.swift */; };
+		D92FDE6C221EB8EA000CE79E /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE61221EB8E5000CE79E /* SwitchCameraButton.swift */; };
+		D92FDE6D221EB8EA000CE79E /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE62221EB8E5000CE79E /* QRCodeReaderViewContainer.swift */; };
+		D92FDE6F221EB8EA000CE79E /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE64221EB8E7000CE79E /* QRCodeReaderResult.swift */; };
+		D92FDE70221EB8EA000CE79E /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE65221EB8E7000CE79E /* QRCodeReader.swift */; };
+		D92FDE71221EB8EA000CE79E /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE66221EB8E8000CE79E /* QRCodeReaderView.swift */; };
+		D92FDE72221EB8EA000CE79E /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE67221EB8E8000CE79E /* QRCodeReaderViewControllerBuilder.swift */; };
+		D92FDE73221EB8EA000CE79E /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE68221EB8E8000CE79E /* QRCodeReaderViewControllerDelegate.swift */; };
+		D92FDE74221EB8EA000CE79E /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE69221EB8E9000CE79E /* ReaderOverlayView.swift */; };
+		D92FDE75221EB8EA000CE79E /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE6A221EB8E9000CE79E /* ToggleTorchButton.swift */; };
+		D92FDE76221EB8EA000CE79E /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FDE6B221EB8EA000CE79E /* QRCodeReaderViewController.swift */; };
+		D9328BF72207263A007FF3B5 /* selectQuestionForPaperSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328BF62207263A007FF3B5 /* selectQuestionForPaperSetViewController.swift */; };
+		D9328BF922072667007FF3B5 /* FetchInfoFromPaperSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328BF822072667007FF3B5 /* FetchInfoFromPaperSetViewController.swift */; };
+		D9328BFB22072746007FF3B5 /* CompanySideStudentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328BFA22072746007FF3B5 /* CompanySideStudentDetailsViewController.swift */; };
+		D9328BFD22073AB9007FF3B5 /* CompanySidestudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328BFC22073AB9007FF3B5 /* CompanySidestudentTableViewCell.swift */; };
+		D9328BFF22073AF0007FF3B5 /* PaperSetQuestionFetchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328BFE22073AF0007FF3B5 /* PaperSetQuestionFetchTableViewCell.swift */; };
+		D9328C0122073B13007FF3B5 /* PaperSetFetchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328C0022073B13007FF3B5 /* PaperSetFetchTableViewCell.swift */; };
+		D9328C0322074346007FF3B5 /* StudentSideResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328C0222074346007FF3B5 /* StudentSideResultTableViewCell.swift */; };
+		D935950E21FB2BB1004274E3 /* roundedview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935950D21FB2BB1004274E3 /* roundedview.swift */; };
+		D93686922200499F0039A5AF /* GenerateNewOpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93686912200499F0039A5AF /* GenerateNewOpeningViewController.swift */; };
+		D936869422008B330039A5AF /* customeroundedtextview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936869322008B330039A5AF /* customeroundedtextview.swift */; };
+		D9379DAA21FEA61900979D3F /* CompanyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9379DA921FEA61900979D3F /* CompanyDetailsViewController.swift */; };
+		D9379DAE21FEA68D00979D3F /* setQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9379DAD21FEA68D00979D3F /* setQuestionsViewController.swift */; };
+		D9379DB021FEA6AB00979D3F /* setPapersetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9379DAF21FEA6AB00979D3F /* setPapersetViewController.swift */; };
+		D9379DB221FEA6D900979D3F /* generateQRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9379DB121FEA6D900979D3F /* generateQRcodeViewController.swift */; };
+		D9379DB421FEA70300979D3F /* CompanySideStudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9379DB321FEA70300979D3F /* CompanySideStudentProfileViewController.swift */; };
+		D93917FE21FD7202006A2CDF /* companyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93917FD21FD7202006A2CDF /* companyTableViewCell.swift */; };
+		D939180021FD7C14006A2CDF /* StudentSideSelectedCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93917FF21FD7C14006A2CDF /* StudentSideSelectedCompany.swift */; };
+		D944FA3B2251D8CE008BCD30 /* alertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944FA3A2251D8CE008BCD30 /* alertExtension.swift */; };
+		D954192C2206B0BB003D3749 /* BookedclassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954192B2206B0BB003D3749 /* BookedclassTableViewCell.swift */; };
+		D9581D9521F8A366001BD4D4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9581D9421F8A366001BD4D4 /* MainTabBarViewController.swift */; };
+		D95DA9A7220C4AA800CD3DB9 /* EncodeingAndDcoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95DA9A6220C4AA800CD3DB9 /* EncodeingAndDcoding.swift */; };
+		D95ED45A2205FF1400129BE2 /* QuestionTabeViewCellsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95ED4592205FF1400129BE2 /* QuestionTabeViewCellsTableViewCell.swift */; };
+		D967CF3D21FE211500098329 /* CompanyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967CF3C21FE211500098329 /* CompanyTabBarViewController.swift */; };
+		D969FCAF220A8C1900577DA6 /* square in Resources */ = {isa = PBXBuildFile; fileRef = D969FCAE220A8C1900577DA6 /* square */; };
+		D969FCB0220A8C1900577DA6 /* square in Resources */ = {isa = PBXBuildFile; fileRef = D969FCAE220A8C1900577DA6 /* square */; };
+		D969FCB1220A8C1900577DA6 /* square in Resources */ = {isa = PBXBuildFile; fileRef = D969FCAE220A8C1900577DA6 /* square */; };
+		D969FCB3220A8C5200577DA6 /* QRCodeScaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCB2220A8C5200577DA6 /* QRCodeScaningViewController.swift */; };
+		D969FCB4220A8C5200577DA6 /* QRCodeScaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCB2220A8C5200577DA6 /* QRCodeScaningViewController.swift */; };
+		D969FCB5220A8C5200577DA6 /* QRCodeScaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCB2220A8C5200577DA6 /* QRCodeScaningViewController.swift */; };
+		D969FCB7220A8C7500577DA6 /* StartingtheTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCB6220A8C7500577DA6 /* StartingtheTestViewController.swift */; };
+		D969FCB8220A8C7500577DA6 /* StartingtheTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCB6220A8C7500577DA6 /* StartingtheTestViewController.swift */; };
+		D969FCB9220A8C7500577DA6 /* StartingtheTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCB6220A8C7500577DA6 /* StartingtheTestViewController.swift */; };
+		D969FCBB220A8C8D00577DA6 /* MainTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCBA220A8C8D00577DA6 /* MainTestViewController.swift */; };
+		D969FCBC220A8C8D00577DA6 /* MainTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCBA220A8C8D00577DA6 /* MainTestViewController.swift */; };
+		D969FCBD220A8C8D00577DA6 /* MainTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCBA220A8C8D00577DA6 /* MainTestViewController.swift */; };
+		D969FCBF220A8CA500577DA6 /* CountingtheResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCBE220A8CA500577DA6 /* CountingtheResultViewController.swift */; };
+		D969FCC0220A8CA500577DA6 /* CountingtheResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCBE220A8CA500577DA6 /* CountingtheResultViewController.swift */; };
+		D969FCC1220A8CA500577DA6 /* CountingtheResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969FCBE220A8CA500577DA6 /* CountingtheResultViewController.swift */; };
+		D96CA2F821F6DEB800FBBEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA2F721F6DEB800FBBEC5 /* AppDelegate.swift */; };
+		D96CA2FA21F6DEB800FBBEC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA2F921F6DEB800FBBEC5 /* ViewController.swift */; };
+		D96CA2FD21F6DEB800FBBEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96CA2FB21F6DEB800FBBEC5 /* Main.storyboard */; };
+		D96CA2FF21F6DEBA00FBBEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96CA2FE21F6DEBA00FBBEC5 /* Assets.xcassets */; };
+		D96CA30221F6DEBA00FBBEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96CA30021F6DEBA00FBBEC5 /* LaunchScreen.storyboard */; };
+		D96CA30D21F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA30C21F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionTests.swift */; };
+		D96CA31821F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA31721F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionUITests.swift */; };
+		D96CA32A21F6E47900FBBEC5 /* specialfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA32921F6E47900FBBEC5 /* specialfield.swift */; };
+		D96CA32C21F6E93B00FBBEC5 /* viewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA32B21F6E93B00FBBEC5 /* viewExt.swift */; };
+		D96CA32E21F6EF4A00FBBEC5 /* QR_Code_QR_Code_Interview....png in Resources */ = {isa = PBXBuildFile; fileRef = D96CA32D21F6EF4A00FBBEC5 /* QR_Code_QR_Code_Interview....png */; };
+		D96CA33021F6F32A00FBBEC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA32F21F6F32A00FBBEC5 /* LoginViewController.swift */; };
+		D96CA33421F6FA5100FBBEC5 /* roundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA33321F6FA5100FBBEC5 /* roundedBtn.swift */; };
+		D96CA33621F703E300FBBEC5 /* keyboardExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CA33521F703E300FBBEC5 /* keyboardExt.swift */; };
+		D9C5266121F71CF300D2F8AC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C5266021F71CF300D2F8AC /* RegistrationViewController.swift */; };
+		E787FC3F8D6BF984375DB211 /* Pods_QR_Code_Interview_Question.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BE87F3A6F0F0A764F993B0 /* Pods_QR_Code_Interview_Question.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96CA30921F6DEBA00FBBEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96CA2EC21F6DEB800FBBEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96CA2F321F6DEB800FBBEC5;
+			remoteInfo = "QR Code Interview Question";
+		};
+		D96CA31421F6DEBA00FBBEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96CA2EC21F6DEB800FBBEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96CA2F321F6DEB800FBBEC5;
+			remoteInfo = "QR Code Interview Question";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0567B9B971EA57D3842C5807 /* Pods-QR Code Interview QuestionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Interview QuestionTests.debug.xcconfig"; path = "Target Support Files/Pods-QR Code Interview QuestionTests/Pods-QR Code Interview QuestionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		113A295523661CB27FCAECFB /* Pods_QR_Code_Interview_QuestionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Code_Interview_QuestionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCC8136ABD5D5F8D96DD4CA /* Pods-QR Code Interview Question.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Interview Question.release.xcconfig"; path = "Target Support Files/Pods-QR Code Interview Question/Pods-QR Code Interview Question.release.xcconfig"; sourceTree = "<group>"; };
+		3BB059AB25A661FC0FB162C0 /* Pods-QR Code Interview QuestionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Interview QuestionTests.release.xcconfig"; path = "Target Support Files/Pods-QR Code Interview QuestionTests/Pods-QR Code Interview QuestionTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E111FB1E79D2D7B6D297C7 /* Pods-QR Code Interview Question.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Interview Question.debug.xcconfig"; path = "Target Support Files/Pods-QR Code Interview Question/Pods-QR Code Interview Question.debug.xcconfig"; sourceTree = "<group>"; };
+		7D85BCC309D88703F6DABE9B /* Pods_QR_Code_Interview_QuestionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Code_Interview_QuestionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819D77A0063AB5C30F8AA960 /* Pods-QR Code Interview QuestionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Interview QuestionUITests.debug.xcconfig"; path = "Target Support Files/Pods-QR Code Interview QuestionUITests/Pods-QR Code Interview QuestionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83DC2BCAFCD3FED55D125D9B /* Pods-QR Code Interview QuestionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Code Interview QuestionUITests.release.xcconfig"; path = "Target Support Files/Pods-QR Code Interview QuestionUITests/Pods-QR Code Interview QuestionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D90C46772203367E00E2F651 /* QuestionSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSetViewController.swift; sourceTree = "<group>"; };
+		D90DD8B422019B75006CCFD2 /* openingsfirstpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingsfirstpageViewController.swift; sourceTree = "<group>"; };
+		D91147AE220AC494008E8994 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		D911B0FA220ACE9900ECE2DF /* newScannViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newScannViewController.swift; sourceTree = "<group>"; };
+		D9196B7F21FEC0310036EB9E /* generateOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateOTPViewController.swift; sourceTree = "<group>"; };
+		D9196B8121FEC0530036EB9E /* SetupnewpasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupnewpasswordViewController.swift; sourceTree = "<group>"; };
+		D91B583921F75240007DA45D /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		D91B583B21F75240007DA45D /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		D91B583C21F75240007DA45D /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		D91B583D21F75240007DA45D /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		D91B583E21F75240007DA45D /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		D91B583F21F75240007DA45D /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		D91B584021F75240007DA45D /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		D91B584221F75240007DA45D /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		D91B584321F75240007DA45D /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		D91B584521F75240007DA45D /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		D91B584621F75240007DA45D /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		D91B584721F75240007DA45D /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		D91B584821F75240007DA45D /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		D91B584A21F75240007DA45D /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		D91B584B21F75240007DA45D /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		D91B584C21F75240007DA45D /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		D91B584D21F75240007DA45D /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		D91B584E21F75240007DA45D /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		D924F9B222017A78007096F8 /* Cell__companyopeningTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell__companyopeningTableViewCell.swift; sourceTree = "<group>"; };
+		D925445F21F98B5E004576CC /* personalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalViewController.swift; sourceTree = "<group>"; };
+		D925446121F98B90004576CC /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
+		D925446321F98D0E004576CC /* companiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companiesViewController.swift; sourceTree = "<group>"; };
+		D925446521F98F24004576CC /* bookedtestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookedtestViewController.swift; sourceTree = "<group>"; };
+		D925446721F98F34004576CC /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		D925446921F99840004576CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D92FDE0F221E9F9A000CE79E /* validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
+		D92FDE61221EB8E5000CE79E /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
+		D92FDE62221EB8E5000CE79E /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		D92FDE64221EB8E7000CE79E /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		D92FDE65221EB8E7000CE79E /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		D92FDE66221EB8E8000CE79E /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		D92FDE67221EB8E8000CE79E /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		D92FDE68221EB8E8000CE79E /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D92FDE69221EB8E9000CE79E /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
+		D92FDE6A221EB8E9000CE79E /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTorchButton.swift; sourceTree = "<group>"; };
+		D92FDE6B221EB8EA000CE79E /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		D9328BF62207263A007FF3B5 /* selectQuestionForPaperSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectQuestionForPaperSetViewController.swift; sourceTree = "<group>"; };
+		D9328BF822072667007FF3B5 /* FetchInfoFromPaperSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchInfoFromPaperSetViewController.swift; sourceTree = "<group>"; };
+		D9328BFA22072746007FF3B5 /* CompanySideStudentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySideStudentDetailsViewController.swift; sourceTree = "<group>"; };
+		D9328BFC22073AB9007FF3B5 /* CompanySidestudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySidestudentTableViewCell.swift; sourceTree = "<group>"; };
+		D9328BFE22073AF0007FF3B5 /* PaperSetQuestionFetchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperSetQuestionFetchTableViewCell.swift; sourceTree = "<group>"; };
+		D9328C0022073B13007FF3B5 /* PaperSetFetchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperSetFetchTableViewCell.swift; sourceTree = "<group>"; };
+		D9328C0222074346007FF3B5 /* StudentSideResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSideResultTableViewCell.swift; sourceTree = "<group>"; };
+		D935950D21FB2BB1004274E3 /* roundedview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedview.swift; sourceTree = "<group>"; };
+		D93686912200499F0039A5AF /* GenerateNewOpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateNewOpeningViewController.swift; sourceTree = "<group>"; };
+		D936869322008B330039A5AF /* customeroundedtextview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeroundedtextview.swift; sourceTree = "<group>"; };
+		D9379DA921FEA61900979D3F /* CompanyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailsViewController.swift; sourceTree = "<group>"; };
+		D9379DAD21FEA68D00979D3F /* setQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setQuestionsViewController.swift; sourceTree = "<group>"; };
+		D9379DAF21FEA6AB00979D3F /* setPapersetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPapersetViewController.swift; sourceTree = "<group>"; };
+		D9379DB121FEA6D900979D3F /* generateQRcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateQRcodeViewController.swift; sourceTree = "<group>"; };
+		D9379DB321FEA70300979D3F /* CompanySideStudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySideStudentProfileViewController.swift; sourceTree = "<group>"; };
+		D93917FD21FD7202006A2CDF /* companyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = companyTableViewCell.swift; sourceTree = "<group>"; };
+		D93917FF21FD7C14006A2CDF /* StudentSideSelectedCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSideSelectedCompany.swift; sourceTree = "<group>"; };
+		D944FA3A2251D8CE008BCD30 /* alertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertExtension.swift; sourceTree = "<group>"; };
+		D954192B2206B0BB003D3749 /* BookedclassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedclassTableViewCell.swift; sourceTree = "<group>"; };
+		D9581D9421F8A366001BD4D4 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		D95DA9A6220C4AA800CD3DB9 /* EncodeingAndDcoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeingAndDcoding.swift; sourceTree = "<group>"; };
+		D95ED4592205FF1400129BE2 /* QuestionTabeViewCellsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTabeViewCellsTableViewCell.swift; sourceTree = "<group>"; };
+		D967CF3C21FE211500098329 /* CompanyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTabBarViewController.swift; sourceTree = "<group>"; };
+		D969FCAE220A8C1900577DA6 /* square */ = {isa = PBXFileReference; explicitFileType = image.png; path = square; sourceTree = "<group>"; };
+		D969FCB2220A8C5200577DA6 /* QRCodeScaningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScaningViewController.swift; sourceTree = "<group>"; };
+		D969FCB6220A8C7500577DA6 /* StartingtheTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingtheTestViewController.swift; sourceTree = "<group>"; };
+		D969FCBA220A8C8D00577DA6 /* MainTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTestViewController.swift; sourceTree = "<group>"; };
+		D969FCBE220A8CA500577DA6 /* CountingtheResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingtheResultViewController.swift; sourceTree = "<group>"; };
+		D96CA2F421F6DEB800FBBEC5 /* QR Code Interview Question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Code Interview Question.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96CA2F721F6DEB800FBBEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96CA2F921F6DEB800FBBEC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D96CA2FC21F6DEB800FBBEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D96CA2FE21F6DEBA00FBBEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96CA30121F6DEBA00FBBEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D96CA30321F6DEBA00FBBEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96CA30821F6DEBA00FBBEC5 /* QR Code Interview QuestionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Code Interview QuestionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96CA30C21F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_Code_Interview_QuestionTests.swift; sourceTree = "<group>"; };
+		D96CA30E21F6DEBA00FBBEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96CA31321F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR Code Interview QuestionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96CA31721F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_Code_Interview_QuestionUITests.swift; sourceTree = "<group>"; };
+		D96CA31921F6DEBA00FBBEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96CA32921F6E47900FBBEC5 /* specialfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = specialfield.swift; sourceTree = "<group>"; };
+		D96CA32B21F6E93B00FBBEC5 /* viewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExt.swift; sourceTree = "<group>"; };
+		D96CA32D21F6EF4A00FBBEC5 /* QR_Code_QR_Code_Interview....png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QR_Code_QR_Code_Interview....png; sourceTree = "<group>"; };
+		D96CA32F21F6F32A00FBBEC5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D96CA33321F6FA5100FBBEC5 /* roundedBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedBtn.swift; sourceTree = "<group>"; };
+		D96CA33521F703E300FBBEC5 /* keyboardExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardExt.swift; sourceTree = "<group>"; };
+		D9C5266021F71CF300D2F8AC /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		E4BE87F3A6F0F0A764F993B0 /* Pods_QR_Code_Interview_Question.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Code_Interview_Question.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D96CA2F121F6DEB800FBBEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E787FC3F8D6BF984375DB211 /* Pods_QR_Code_Interview_Question.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA30521F6DEBA00FBBEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004B94052A3C9432B3DE7737 /* Pods_QR_Code_Interview_QuestionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA31021F6DEBA00FBBEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01000D6C409FC723C2E7F470 /* Pods_QR_Code_Interview_QuestionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6248A1BCDBF66931BFB4D62B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56E111FB1E79D2D7B6D297C7 /* Pods-QR Code Interview Question.debug.xcconfig */,
+				1CCC8136ABD5D5F8D96DD4CA /* Pods-QR Code Interview Question.release.xcconfig */,
+				0567B9B971EA57D3842C5807 /* Pods-QR Code Interview QuestionTests.debug.xcconfig */,
+				3BB059AB25A661FC0FB162C0 /* Pods-QR Code Interview QuestionTests.release.xcconfig */,
+				819D77A0063AB5C30F8AA960 /* Pods-QR Code Interview QuestionUITests.debug.xcconfig */,
+				83DC2BCAFCD3FED55D125D9B /* Pods-QR Code Interview QuestionUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		667C5B02DDA1804F37BC0812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4BE87F3A6F0F0A764F993B0 /* Pods_QR_Code_Interview_Question.framework */,
+				7D85BCC309D88703F6DABE9B /* Pods_QR_Code_Interview_QuestionTests.framework */,
+				113A295523661CB27FCAECFB /* Pods_QR_Code_Interview_QuestionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D91B583721F75240007DA45D /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D91B583821F75240007DA45D /* IQTextView */,
+				D91B583A21F75240007DA45D /* IQToolbar */,
+				D91B584121F75240007DA45D /* Constants */,
+				D91B584421F75240007DA45D /* Resources */,
+				D91B584621F75240007DA45D /* IQKeyboardReturnKeyHandler.swift */,
+				D91B584721F75240007DA45D /* IQKeyboardManager.swift */,
+				D91B584821F75240007DA45D /* IQKeyboardManagerSwift.h */,
+				D91B584921F75240007DA45D /* Categories */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		D91B583821F75240007DA45D /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D91B583921F75240007DA45D /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		D91B583A21F75240007DA45D /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				D91B583B21F75240007DA45D /* IQPreviousNextView.swift */,
+				D91B583C21F75240007DA45D /* IQTitleBarButtonItem.swift */,
+				D91B583D21F75240007DA45D /* IQBarButtonItem.swift */,
+				D91B583E21F75240007DA45D /* IQToolbar.swift */,
+				D91B583F21F75240007DA45D /* IQUIView+IQKeyboardToolbar.swift */,
+				D91B584021F75240007DA45D /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		D91B584121F75240007DA45D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D91B584221F75240007DA45D /* IQKeyboardManagerConstantsInternal.swift */,
+				D91B584321F75240007DA45D /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D91B584421F75240007DA45D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D91B584521F75240007DA45D /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D91B584921F75240007DA45D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D91B584A21F75240007DA45D /* IQUIScrollView+Additions.swift */,
+				D91B584B21F75240007DA45D /* IQUIViewController+Additions.swift */,
+				D91B584C21F75240007DA45D /* IQUITextFieldView+Additions.swift */,
+				D91B584D21F75240007DA45D /* IQUIView+Hierarchy.swift */,
+				D91B584E21F75240007DA45D /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D96CA2EB21F6DEB800FBBEC5 = {
+			isa = PBXGroup;
+			children = (
+				D96CA2F621F6DEB800FBBEC5 /* QR Code Interview Question */,
+				D96CA31621F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests */,
+				D96CA2F521F6DEB800FBBEC5 /* Products */,
+				6248A1BCDBF66931BFB4D62B /* Pods */,
+				667C5B02DDA1804F37BC0812 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D96CA2F521F6DEB800FBBEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA2F421F6DEB800FBBEC5 /* QR Code Interview Question.app */,
+				D96CA30821F6DEBA00FBBEC5 /* QR Code Interview QuestionTests.xctest */,
+				D96CA31321F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96CA2F621F6DEB800FBBEC5 /* QR Code Interview Question */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA2F721F6DEB800FBBEC5 /* AppDelegate.swift */,
+				D96CA32F21F6F32A00FBBEC5 /* LoginViewController.swift */,
+				D9C5266021F71CF300D2F8AC /* RegistrationViewController.swift */,
+				D9196B7F21FEC0310036EB9E /* generateOTPViewController.swift */,
+				D9196B8121FEC0530036EB9E /* SetupnewpasswordViewController.swift */,
+				D96CA2FB21F6DEB800FBBEC5 /* Main.storyboard */,
+				D96CA2FE21F6DEBA00FBBEC5 /* Assets.xcassets */,
+				D96CA32B21F6E93B00FBBEC5 /* viewExt.swift */,
+				D96CA32921F6E47900FBBEC5 /* specialfield.swift */,
+				D92FDE0F221E9F9A000CE79E /* validation.swift */,
+				D96CA33321F6FA5100FBBEC5 /* roundedBtn.swift */,
+				D925446921F99840004576CC /* Constant.swift */,
+				D935950D21FB2BB1004274E3 /* roundedview.swift */,
+				D936869322008B330039A5AF /* customeroundedtextview.swift */,
+				D96CA2F921F6DEB800FBBEC5 /* ViewController.swift */,
+				D944FA3A2251D8CE008BCD30 /* alertExtension.swift */,
+				D96CA30021F6DEBA00FBBEC5 /* LaunchScreen.storyboard */,
+				D96CA30321F6DEBA00FBBEC5 /* Info.plist */,
+				D969FCAE220A8C1900577DA6 /* square */,
+				D91B583721F75240007DA45D /* IQKeyboardManagerSwift */,
+				D96CA33521F703E300FBBEC5 /* keyboardExt.swift */,
+				D96CA30B21F6DEBA00FBBEC5 /* QR Code Interview QuestionTests */,
+				D9581D9421F8A366001BD4D4 /* MainTabBarViewController.swift */,
+				D925445F21F98B5E004576CC /* personalViewController.swift */,
+				D925446121F98B90004576CC /* resultsViewController.swift */,
+				D9328C0222074346007FF3B5 /* StudentSideResultTableViewCell.swift */,
+				D925446321F98D0E004576CC /* companiesViewController.swift */,
+				D93917FD21FD7202006A2CDF /* companyTableViewCell.swift */,
+				D93917FF21FD7C14006A2CDF /* StudentSideSelectedCompany.swift */,
+				D925446521F98F24004576CC /* bookedtestViewController.swift */,
+				D954192B2206B0BB003D3749 /* BookedclassTableViewCell.swift */,
+				D925446721F98F34004576CC /* testViewController.swift */,
+				D969FCB6220A8C7500577DA6 /* StartingtheTestViewController.swift */,
+				D969FCBA220A8C8D00577DA6 /* MainTestViewController.swift */,
+				D969FCBE220A8CA500577DA6 /* CountingtheResultViewController.swift */,
+				D96CA32D21F6EF4A00FBBEC5 /* QR_Code_QR_Code_Interview....png */,
+				D967CF3C21FE211500098329 /* CompanyTabBarViewController.swift */,
+				D9379DA921FEA61900979D3F /* CompanyDetailsViewController.swift */,
+				D90DD8B422019B75006CCFD2 /* openingsfirstpageViewController.swift */,
+				D924F9B222017A78007096F8 /* Cell__companyopeningTableViewCell.swift */,
+				D93686912200499F0039A5AF /* GenerateNewOpeningViewController.swift */,
+				D9379DB321FEA70300979D3F /* CompanySideStudentProfileViewController.swift */,
+				D9328BFC22073AB9007FF3B5 /* CompanySidestudentTableViewCell.swift */,
+				D9328BFA22072746007FF3B5 /* CompanySideStudentDetailsViewController.swift */,
+				D9379DAD21FEA68D00979D3F /* setQuestionsViewController.swift */,
+				D95ED4592205FF1400129BE2 /* QuestionTabeViewCellsTableViewCell.swift */,
+				D90C46772203367E00E2F651 /* QuestionSetViewController.swift */,
+				D9379DAF21FEA6AB00979D3F /* setPapersetViewController.swift */,
+				D9328C0022073B13007FF3B5 /* PaperSetFetchTableViewCell.swift */,
+				D9328BF822072667007FF3B5 /* FetchInfoFromPaperSetViewController.swift */,
+				D9328BF62207263A007FF3B5 /* selectQuestionForPaperSetViewController.swift */,
+				D9328BFE22073AF0007FF3B5 /* PaperSetQuestionFetchTableViewCell.swift */,
+				D9379DB121FEA6D900979D3F /* generateQRcodeViewController.swift */,
+				D969FCB2220A8C5200577DA6 /* QRCodeScaningViewController.swift */,
+				D91147AE220AC494008E8994 /* DemoViewController.swift */,
+				D911B0FA220ACE9900ECE2DF /* newScannViewController.swift */,
+				D95DA9A6220C4AA800CD3DB9 /* EncodeingAndDcoding.swift */,
+				D92FDE65221EB8E7000CE79E /* QRCodeReader.swift */,
+				D92FDE64221EB8E7000CE79E /* QRCodeReaderResult.swift */,
+				D92FDE66221EB8E8000CE79E /* QRCodeReaderView.swift */,
+				D92FDE62221EB8E5000CE79E /* QRCodeReaderViewContainer.swift */,
+				D92FDE6B221EB8EA000CE79E /* QRCodeReaderViewController.swift */,
+				D92FDE67221EB8E8000CE79E /* QRCodeReaderViewControllerBuilder.swift */,
+				D92FDE68221EB8E8000CE79E /* QRCodeReaderViewControllerDelegate.swift */,
+				D92FDE69221EB8E9000CE79E /* ReaderOverlayView.swift */,
+				D92FDE61221EB8E5000CE79E /* SwitchCameraButton.swift */,
+				D92FDE6A221EB8E9000CE79E /* ToggleTorchButton.swift */,
+			);
+			path = "QR Code Interview Question";
+			sourceTree = "<group>";
+		};
+		D96CA30B21F6DEBA00FBBEC5 /* QR Code Interview QuestionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA30C21F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionTests.swift */,
+				D96CA30E21F6DEBA00FBBEC5 /* Info.plist */,
+			);
+			path = "QR Code Interview QuestionTests";
+			sourceTree = "<group>";
+		};
+		D96CA31621F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D96CA31721F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionUITests.swift */,
+				D96CA31921F6DEBA00FBBEC5 /* Info.plist */,
+			);
+			path = "QR Code Interview QuestionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D96CA2F321F6DEB800FBBEC5 /* QR Code Interview Question */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96CA31C21F6DEBA00FBBEC5 /* Build configuration list for PBXNativeTarget "QR Code Interview Question" */;
+			buildPhases = (
+				9BDE239C94BE88AB134C05B0 /* [CP] Check Pods Manifest.lock */,
+				D96CA2F021F6DEB800FBBEC5 /* Sources */,
+				D96CA2F121F6DEB800FBBEC5 /* Frameworks */,
+				D96CA2F221F6DEB800FBBEC5 /* Resources */,
+				59A12CC49CCAF5A08032C22A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR Code Interview Question";
+			productName = "QR Code Interview Question";
+			productReference = D96CA2F421F6DEB800FBBEC5 /* QR Code Interview Question.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96CA30721F6DEBA00FBBEC5 /* QR Code Interview QuestionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96CA31F21F6DEBA00FBBEC5 /* Build configuration list for PBXNativeTarget "QR Code Interview QuestionTests" */;
+			buildPhases = (
+				33F1A1846E14F5337DAD8C4F /* [CP] Check Pods Manifest.lock */,
+				D96CA30421F6DEBA00FBBEC5 /* Sources */,
+				D96CA30521F6DEBA00FBBEC5 /* Frameworks */,
+				D96CA30621F6DEBA00FBBEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96CA30A21F6DEBA00FBBEC5 /* PBXTargetDependency */,
+			);
+			name = "QR Code Interview QuestionTests";
+			productName = "QR Code Interview QuestionTests";
+			productReference = D96CA30821F6DEBA00FBBEC5 /* QR Code Interview QuestionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D96CA31221F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96CA32221F6DEBA00FBBEC5 /* Build configuration list for PBXNativeTarget "QR Code Interview QuestionUITests" */;
+			buildPhases = (
+				59F77D5F68ACDBD80D3CE556 /* [CP] Check Pods Manifest.lock */,
+				D96CA30F21F6DEBA00FBBEC5 /* Sources */,
+				D96CA31021F6DEBA00FBBEC5 /* Frameworks */,
+				D96CA31121F6DEBA00FBBEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96CA31521F6DEBA00FBBEC5 /* PBXTargetDependency */,
+			);
+			name = "QR Code Interview QuestionUITests";
+			productName = "QR Code Interview QuestionUITests";
+			productReference = D96CA31321F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96CA2EC21F6DEB800FBBEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Harsh Patel";
+				TargetAttributes = {
+					D96CA2F321F6DEB800FBBEC5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D96CA30721F6DEBA00FBBEC5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D96CA2F321F6DEB800FBBEC5;
+					};
+					D96CA31221F6DEBA00FBBEC5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D96CA2F321F6DEB800FBBEC5;
+					};
+				};
+			};
+			buildConfigurationList = D96CA2EF21F6DEB800FBBEC5 /* Build configuration list for PBXProject "QR Code Interview Question" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96CA2EB21F6DEB800FBBEC5;
+			productRefGroup = D96CA2F521F6DEB800FBBEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D96CA2F321F6DEB800FBBEC5 /* QR Code Interview Question */,
+				D96CA30721F6DEBA00FBBEC5 /* QR Code Interview QuestionTests */,
+				D96CA31221F6DEBA00FBBEC5 /* QR Code Interview QuestionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D96CA2F221F6DEB800FBBEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B585821F75240007DA45D /* IQKeyboardManager.bundle in Resources */,
+				D96CA32E21F6EF4A00FBBEC5 /* QR_Code_QR_Code_Interview....png in Resources */,
+				D96CA30221F6DEBA00FBBEC5 /* LaunchScreen.storyboard in Resources */,
+				D96CA2FF21F6DEBA00FBBEC5 /* Assets.xcassets in Resources */,
+				D969FCAF220A8C1900577DA6 /* square in Resources */,
+				D96CA2FD21F6DEB800FBBEC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA30621F6DEBA00FBBEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969FCB0220A8C1900577DA6 /* square in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA31121F6DEBA00FBBEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969FCB1220A8C1900577DA6 /* square in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33F1A1846E14F5337DAD8C4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR Code Interview QuestionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A12CC49CCAF5A08032C22A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QR Code Interview Question/Pods-QR Code Interview Question-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DataCache/DataCache.framework",
+				"${BUILT_PRODUCTS_DIR}/LinearProgressBarMaterial/LinearProgressBarMaterial.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DataCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinearProgressBarMaterial.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QR Code Interview Question/Pods-QR Code Interview Question-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F77D5F68ACDBD80D3CE556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR Code Interview QuestionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDE239C94BE88AB134C05B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR Code Interview Question-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D96CA2F021F6DEB800FBBEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969FCB7220A8C7500577DA6 /* StartingtheTestViewController.swift in Sources */,
+				D91B585421F75240007DA45D /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				D96CA33421F6FA5100FBBEC5 /* roundedBtn.swift in Sources */,
+				D93917FE21FD7202006A2CDF /* companyTableViewCell.swift in Sources */,
+				D96CA32C21F6E93B00FBBEC5 /* viewExt.swift in Sources */,
+				D9328BFF22073AF0007FF3B5 /* PaperSetQuestionFetchTableViewCell.swift in Sources */,
+				D91B585C21F75240007DA45D /* IQUIViewController+Additions.swift in Sources */,
+				D92FDE6F221EB8EA000CE79E /* QRCodeReaderResult.swift in Sources */,
+				D9379DAA21FEA61900979D3F /* CompanyDetailsViewController.swift in Sources */,
+				D91B585621F75240007DA45D /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				D9379DAE21FEA68D00979D3F /* setQuestionsViewController.swift in Sources */,
+				D9581D9521F8A366001BD4D4 /* MainTabBarViewController.swift in Sources */,
+				D925446421F98D0E004576CC /* companiesViewController.swift in Sources */,
+				D92FDE74221EB8EA000CE79E /* ReaderOverlayView.swift in Sources */,
+				D92FDE75221EB8EA000CE79E /* ToggleTorchButton.swift in Sources */,
+				D91B584F21F75240007DA45D /* IQTextView.swift in Sources */,
+				D925446621F98F24004576CC /* bookedtestViewController.swift in Sources */,
+				D91B585121F75240007DA45D /* IQTitleBarButtonItem.swift in Sources */,
+				D90C46782203367E00E2F651 /* QuestionSetViewController.swift in Sources */,
+				D92FDE6C221EB8EA000CE79E /* SwitchCameraButton.swift in Sources */,
+				D925446221F98B90004576CC /* resultsViewController.swift in Sources */,
+				D967CF3D21FE211500098329 /* CompanyTabBarViewController.swift in Sources */,
+				D925446021F98B5E004576CC /* personalViewController.swift in Sources */,
+				D9379DB421FEA70300979D3F /* CompanySideStudentProfileViewController.swift in Sources */,
+				D9379DB021FEA6AB00979D3F /* setPapersetViewController.swift in Sources */,
+				D9196B8221FEC0530036EB9E /* SetupnewpasswordViewController.swift in Sources */,
+				D92FDE10221E9F9A000CE79E /* validation.swift in Sources */,
+				D91B585E21F75240007DA45D /* IQUIView+Hierarchy.swift in Sources */,
+				D9328BF922072667007FF3B5 /* FetchInfoFromPaperSetViewController.swift in Sources */,
+				D9C5266121F71CF300D2F8AC /* RegistrationViewController.swift in Sources */,
+				D9328BF72207263A007FF3B5 /* selectQuestionForPaperSetViewController.swift in Sources */,
+				D96CA2FA21F6DEB800FBBEC5 /* ViewController.swift in Sources */,
+				D91B585A21F75240007DA45D /* IQKeyboardManager.swift in Sources */,
+				D9328BFD22073AB9007FF3B5 /* CompanySidestudentTableViewCell.swift in Sources */,
+				D9328C0122073B13007FF3B5 /* PaperSetFetchTableViewCell.swift in Sources */,
+				D95ED45A2205FF1400129BE2 /* QuestionTabeViewCellsTableViewCell.swift in Sources */,
+				D9196B8021FEC0310036EB9E /* generateOTPViewController.swift in Sources */,
+				D91147AF220AC494008E8994 /* DemoViewController.swift in Sources */,
+				D92FDE70221EB8EA000CE79E /* QRCodeReader.swift in Sources */,
+				D93686922200499F0039A5AF /* GenerateNewOpeningViewController.swift in Sources */,
+				D92FDE71221EB8EA000CE79E /* QRCodeReaderView.swift in Sources */,
+				D969FCBB220A8C8D00577DA6 /* MainTestViewController.swift in Sources */,
+				D91B585921F75240007DA45D /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				D91B585221F75240007DA45D /* IQBarButtonItem.swift in Sources */,
+				D925446821F98F34004576CC /* testViewController.swift in Sources */,
+				D9379DB221FEA6D900979D3F /* generateQRcodeViewController.swift in Sources */,
+				D924F9B322017A78007096F8 /* Cell__companyopeningTableViewCell.swift in Sources */,
+				D925446A21F99840004576CC /* Constant.swift in Sources */,
+				D96CA2F821F6DEB800FBBEC5 /* AppDelegate.swift in Sources */,
+				D936869422008B330039A5AF /* customeroundedtextview.swift in Sources */,
+				D92FDE76221EB8EA000CE79E /* QRCodeReaderViewController.swift in Sources */,
+				D91B585721F75240007DA45D /* IQKeyboardManagerConstants.swift in Sources */,
+				D969FCB3220A8C5200577DA6 /* QRCodeScaningViewController.swift in Sources */,
+				D91B585B21F75240007DA45D /* IQUIScrollView+Additions.swift in Sources */,
+				D91B585521F75240007DA45D /* IQInvocation.swift in Sources */,
+				D935950E21FB2BB1004274E3 /* roundedview.swift in Sources */,
+				D91B585D21F75240007DA45D /* IQUITextFieldView+Additions.swift in Sources */,
+				D9328C0322074346007FF3B5 /* StudentSideResultTableViewCell.swift in Sources */,
+				D91B585021F75240007DA45D /* IQPreviousNextView.swift in Sources */,
+				D92FDE6D221EB8EA000CE79E /* QRCodeReaderViewContainer.swift in Sources */,
+				D90DD8B522019B75006CCFD2 /* openingsfirstpageViewController.swift in Sources */,
+				D95DA9A7220C4AA800CD3DB9 /* EncodeingAndDcoding.swift in Sources */,
+				D96CA33021F6F32A00FBBEC5 /* LoginViewController.swift in Sources */,
+				D954192C2206B0BB003D3749 /* BookedclassTableViewCell.swift in Sources */,
+				D92FDE72221EB8EA000CE79E /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				D939180021FD7C14006A2CDF /* StudentSideSelectedCompany.swift in Sources */,
+				D91B585F21F75240007DA45D /* IQNSArray+Sort.swift in Sources */,
+				D9328BFB22072746007FF3B5 /* CompanySideStudentDetailsViewController.swift in Sources */,
+				D911B0FB220ACE9900ECE2DF /* newScannViewController.swift in Sources */,
+				D96CA33621F703E300FBBEC5 /* keyboardExt.swift in Sources */,
+				D944FA3B2251D8CE008BCD30 /* alertExtension.swift in Sources */,
+				D91B585321F75240007DA45D /* IQToolbar.swift in Sources */,
+				D969FCBF220A8CA500577DA6 /* CountingtheResultViewController.swift in Sources */,
+				D92FDE73221EB8EA000CE79E /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				D96CA32A21F6E47900FBBEC5 /* specialfield.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA30421F6DEBA00FBBEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969FCB4220A8C5200577DA6 /* QRCodeScaningViewController.swift in Sources */,
+				D96CA30D21F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionTests.swift in Sources */,
+				D969FCB8220A8C7500577DA6 /* StartingtheTestViewController.swift in Sources */,
+				D969FCC0220A8CA500577DA6 /* CountingtheResultViewController.swift in Sources */,
+				D969FCBC220A8C8D00577DA6 /* MainTestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96CA30F21F6DEBA00FBBEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969FCB5220A8C5200577DA6 /* QRCodeScaningViewController.swift in Sources */,
+				D96CA31821F6DEBA00FBBEC5 /* QR_Code_Interview_QuestionUITests.swift in Sources */,
+				D969FCB9220A8C7500577DA6 /* StartingtheTestViewController.swift in Sources */,
+				D969FCC1220A8CA500577DA6 /* CountingtheResultViewController.swift in Sources */,
+				D969FCBD220A8C8D00577DA6 /* MainTestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96CA30A21F6DEBA00FBBEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96CA2F321F6DEB800FBBEC5 /* QR Code Interview Question */;
+			targetProxy = D96CA30921F6DEBA00FBBEC5 /* PBXContainerItemProxy */;
+		};
+		D96CA31521F6DEBA00FBBEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96CA2F321F6DEB800FBBEC5 /* QR Code Interview Question */;
+			targetProxy = D96CA31421F6DEBA00FBBEC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D96CA2FB21F6DEB800FBBEC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96CA2FC21F6DEB800FBBEC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D96CA30021F6DEBA00FBBEC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96CA30121F6DEBA00FBBEC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D96CA31A21F6DEBA00FBBEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96CA31B21F6DEBA00FBBEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96CA31D21F6DEBA00FBBEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E111FB1E79D2D7B6D297C7 /* Pods-QR Code Interview Question.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536B7789R2;
+				INFOPLIST_FILE = "QR Code Interview Question/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Harshpatel.QR-Code-Interview-Question";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D96CA31E21F6DEBA00FBBEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCC8136ABD5D5F8D96DD4CA /* Pods-QR Code Interview Question.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536B7789R2;
+				INFOPLIST_FILE = "QR Code Interview Question/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Harshpatel.QR-Code-Interview-Question";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D96CA32021F6DEBA00FBBEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0567B9B971EA57D3842C5807 /* Pods-QR Code Interview QuestionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Code Interview QuestionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Harsh.QR-Code-Interview-QuestionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR Code Interview Question.app/QR Code Interview Question";
+			};
+			name = Debug;
+		};
+		D96CA32121F6DEBA00FBBEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB059AB25A661FC0FB162C0 /* Pods-QR Code Interview QuestionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Code Interview QuestionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Harsh.QR-Code-Interview-QuestionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR Code Interview Question.app/QR Code Interview Question";
+			};
+			name = Release;
+		};
+		D96CA32321F6DEBA00FBBEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819D77A0063AB5C30F8AA960 /* Pods-QR Code Interview QuestionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Code Interview QuestionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Harsh.QR-Code-Interview-QuestionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QR Code Interview Question";
+			};
+			name = Debug;
+		};
+		D96CA32421F6DEBA00FBBEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DC2BCAFCD3FED55D125D9B /* Pods-QR Code Interview QuestionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "QR Code Interview QuestionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Harsh.QR-Code-Interview-QuestionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QR Code Interview Question";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D96CA2EF21F6DEB800FBBEC5 /* Build configuration list for PBXProject "QR Code Interview Question" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA31A21F6DEBA00FBBEC5 /* Debug */,
+				D96CA31B21F6DEBA00FBBEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96CA31C21F6DEBA00FBBEC5 /* Build configuration list for PBXNativeTarget "QR Code Interview Question" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA31D21F6DEBA00FBBEC5 /* Debug */,
+				D96CA31E21F6DEBA00FBBEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96CA31F21F6DEBA00FBBEC5 /* Build configuration list for PBXNativeTarget "QR Code Interview QuestionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA32021F6DEBA00FBBEC5 /* Debug */,
+				D96CA32121F6DEBA00FBBEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96CA32221F6DEBA00FBBEC5 /* Build configuration list for PBXNativeTarget "QR Code Interview QuestionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96CA32321F6DEBA00FBBEC5 /* Debug */,
+				D96CA32421F6DEBA00FBBEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D96CA2EC21F6DEB800FBBEC5 /* Project object */;
+}
