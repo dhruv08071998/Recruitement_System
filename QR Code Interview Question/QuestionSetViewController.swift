@@ -24,7 +24,8 @@ public struct updateAck : Decodable{
 class QuestionSetViewController: UIViewController ,UIPickerViewDelegate,UIPickerViewDataSource,UITextFieldDelegate{
     @IBOutlet weak var btnoutlet: roundedBtn!
     @IBAction func backbtn(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+       // navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     var Lid = UserDefaults.standard.value(forKey: "lidkey") as! String// company lid that is to be inserted
     var diff = ["Easy","Medium","High"]

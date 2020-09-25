@@ -21,7 +21,8 @@ class FetchInfoFromPaperSetViewController: UIViewController {
     var QrImage = UIImage()
     
     @IBAction func BtnBack(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
+        //navigationController?.popViewController(animated: true)
     }
     @IBAction func BtnSaveImage(_ sender: Any) {
         

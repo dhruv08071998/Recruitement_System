@@ -94,8 +94,8 @@ class RegistrationViewController: UIViewController,UITextFieldDelegate,UIImagePi
   
     @IBAction func backBtn(_ sender: Any) {
         
-     
-         navigationController?.popViewController(animated: true)
+     self.dismiss(animated: true)
+        // navigationController?.popViewController(animated: true)
     }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////Image selection from library
     
@@ -354,6 +354,7 @@ class RegistrationViewController: UIViewController,UITextFieldDelegate,UIImagePi
         super.viewDidLoad()
          hideKeyboardWhenTappedAround()
         /// to return using return button
+        myImage.layer.cornerRadius = myImage.frame.height/2
          self.navigationController?.navigationBar.isHidden = true
         // Do any additional setup after loading the view.
     }

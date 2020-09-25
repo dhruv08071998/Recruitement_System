@@ -52,9 +52,8 @@ class StudentSideSeectedCompany: UIViewController
     
     
     @IBAction func btnback(_ sender: Any) {
-        
-        navigationController?.popViewController(animated: true)
-        
+        self.dismiss(animated: true)
+        //navigationController?.popViewController(animated: true)
         
     }
     

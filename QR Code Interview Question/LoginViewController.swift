@@ -231,11 +231,25 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             
             if ( response.role! == "Student")
             {
-                performSegue(withIdentifier: "one", sender: self)
+                if #available(iOS 13.0, *) {
+                    let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "MainTabBarViewController")
+                    detailVC.modalPresentationStyle = .fullScreen
+                                       
+                                   self.present(detailVC, animated: true, completion: nil)
+                } else {
+                    // Fallback on earlier versions
+                }
             }
             else if (response.role! == "Company")
             {
-                performSegue(withIdentifier: "Company", sender: self)
+                if #available(iOS 13.0, *) {
+                    let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "CompanyTabBarViewController")
+                    detailVC.modalPresentationStyle = .fullScreen
+                                       
+                                   self.present(detailVC, animated: true, completion: nil)
+                } else {
+                    // Fallback on earlier versions
+                }
             }
             else
             {

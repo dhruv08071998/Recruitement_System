@@ -61,7 +61,8 @@ class StartingtheTestViewController: UIViewController {
     
     
     @IBAction func BtnBack(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        //navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     
     @IBAction func BtnStart(_ sender: Any) {

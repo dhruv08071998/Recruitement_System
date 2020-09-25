@@ -58,7 +58,8 @@ class CountingtheResultViewController: UIViewController {
     
     @IBAction func btnBack(_ sender: Any) {
         
-        navigationController?.popViewController(animated: true)
+        //navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
         
     }
     

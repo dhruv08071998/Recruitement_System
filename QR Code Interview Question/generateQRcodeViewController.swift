@@ -416,7 +416,8 @@ class generateQRcodeViewController: UIViewController ,UIPickerViewDelegate,UIPic
     @IBOutlet weak var txtSetName: Specialfield!
     @IBOutlet weak var txtTechnology: Specialfield!
     @IBAction func BtnBack(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+//        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     
     override func viewDidLoad() {

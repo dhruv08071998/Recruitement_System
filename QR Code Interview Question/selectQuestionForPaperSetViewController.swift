@@ -78,8 +78,8 @@ class selectQuestionForPaperSetViewController: UIViewController,UITableViewDataS
     
 
     @IBAction func BtnBack(_ sender: Any) {
-        
-        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
+        //navigationController?.popViewController(animated: true)
     }
     
     @IBOutlet weak var btnoutlet: roundedBtn!

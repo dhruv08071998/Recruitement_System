@@ -32,7 +32,8 @@ class generateOTPViewController: UIViewController {
     
     
     @IBAction func Btnback(_ sender: Any) {
-         navigationController?.popViewController(animated: true)
+        // navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     
     @IBAction func btnGenerateOTP(_ sender: Any) {

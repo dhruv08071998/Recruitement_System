@@ -88,8 +88,7 @@ class GenerateNewOpeningViewController: UIViewController,UIPickerViewDelegate,UI
 
     @IBOutlet weak var btnoutlet: roundedBtn!
     @IBAction func backBtn(_ sender: Any) {
-        
-    navigationController?.popViewController(animated: true)
+        self.dismiss(animated:true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

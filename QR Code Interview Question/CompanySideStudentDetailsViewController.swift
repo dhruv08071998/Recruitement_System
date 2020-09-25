@@ -30,7 +30,8 @@ class CompanySideStudentDetailsViewController: UIViewController {
     
     @IBAction func backBtn(_ sender: Any) {
         
-        navigationController?.popViewController(animated: true)
+        //navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     var highQul = ""
     var technology = ""
