@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kdm-6r-lDA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kdm-6r-lDA">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,10 +13,10 @@
             <objects>
                 <viewController storyboardIdentifier="logout" id="L28-v3-7Kb" customClass="LoginViewController" customModule="QR_Code_Interview_Question" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G6c-Od-Zdx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISG-4Y-oEX" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISG-4Y-oEX" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="579" width="315" height="38"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -35,7 +35,7 @@
                                     <action selector="registrstionBtn:" destination="L28-v3-7Kb" eventType="touchUpInside" id="uOY-xZ-dGb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sP9-Ax-fsT" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sP9-Ax-fsT" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="516" width="315" height="38"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -114,7 +114,7 @@
                                 <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdS-Vs-lAK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdS-Vs-lAK">
                                 <rect key="frame" x="124" y="632" width="127" height="30"/>
                                 <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Forgot Password ?"/>
@@ -123,6 +123,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="NfZ-J0-YRR"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QdS-Vs-lAK" firstAttribute="top" secondItem="ISG-4Y-oEX" secondAttribute="bottom" constant="15" id="84U-UP-hq1"/>
@@ -145,7 +146,6 @@
                             <constraint firstItem="NfZ-J0-YRR" firstAttribute="trailing" secondItem="YTs-pv-LB5" secondAttribute="trailing" constant="10" id="reu-pM-klt"/>
                             <constraint firstItem="VOP-j4-OSf" firstAttribute="leading" secondItem="u3s-Uh-Utk" secondAttribute="leading" id="wqq-gc-cw3"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="NfZ-J0-YRR"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZS2-tq-HeF"/>
                     <connections>
@@ -367,7 +367,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFp-G0-sgo" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFp-G0-sgo" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="777.5" width="315" height="40"/>
                                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -388,7 +388,7 @@
                                                             <action selector="registrationBtn:" destination="FCk-gE-32g" eventType="touchUpInside" id="0js-Xp-oM3"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qia-UY-Joi" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qia-UY-Joi" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="837.5" width="315" height="40"/>
                                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -476,6 +476,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="an7-y8-hfX"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="an7-y8-hfX" firstAttribute="bottom" secondItem="cmT-Wm-nkn" secondAttribute="bottom" id="1GG-xQ-YjA"/>
@@ -486,7 +487,6 @@
                             <constraint firstItem="cmT-Wm-nkn" firstAttribute="trailing" secondItem="an7-y8-hfX" secondAttribute="trailing" id="w9Q-kE-Ah4"/>
                             <constraint firstItem="cmT-Wm-nkn" firstAttribute="leading" secondItem="an7-y8-hfX" secondAttribute="leading" id="zoz-Qd-JYu"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="an7-y8-hfX"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Company Details" image="File6" id="dVj-wf-IHZ"/>
                     <size key="freeformSize" width="375" height="1000"/>
@@ -637,7 +637,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9U-I8-DTN" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="125" width="375" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpr-yl-XQz" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rpr-yl-XQz" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                 <rect key="frame" x="172.5" y="2.5" width="200" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="9K5-W4-CQ0"/>
@@ -694,6 +694,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Auc-hZ-f9t"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yFO-Dh-9EZ" firstAttribute="top" secondItem="eBd-lK-QdY" secondAttribute="top" id="34y-oU-Xem"/>
@@ -701,7 +702,6 @@
                             <constraint firstItem="yFO-Dh-9EZ" firstAttribute="leading" secondItem="Auc-hZ-f9t" secondAttribute="leading" id="drS-a1-J3n"/>
                             <constraint firstItem="yFO-Dh-9EZ" firstAttribute="bottom" secondItem="Auc-hZ-f9t" secondAttribute="bottom" id="grN-0R-RG7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Auc-hZ-f9t"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Set Papers" image="File2" id="UV7-rj-p2q"/>
                     <connections>
@@ -770,19 +770,19 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level Of Difficulty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jye-84-NsT">
-                                                                    <rect key="frame" x="194.5" y="20" width="145.5" height="20"/>
+                                                                    <rect key="frame" x="195" y="20" width="145" height="20"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Details" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R43-ej-b8l">
-                                                                    <rect key="frame" x="127.5" y="90.5" width="100.5" height="20.5"/>
+                                                                    <rect key="frame" x="127.5" y="90.5" width="100" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejh-SI-WcY">
-                                                                    <rect key="frame" x="124.5" y="55" width="106.5" height="20.5"/>
+                                                                    <rect key="frame" x="124.5" y="55" width="106" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -836,7 +836,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CMP-QA-L3l" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRv-yd-CYc" userLabel="Add new question" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRv-yd-CYc" userLabel="Add new question" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                 <rect key="frame" x="172.5" y="2.5" width="200" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Aak-Y2-MfH"/>
@@ -890,6 +890,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="azb-Vg-Urs"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4YP-Pl-MbU" firstAttribute="top" secondItem="5ir-2z-Aq6" secondAttribute="top" id="4Uj-J8-Bsl"/>
@@ -900,7 +901,6 @@
                             <constraint firstItem="4YP-Pl-MbU" firstAttribute="trailing" secondItem="azb-Vg-Urs" secondAttribute="trailing" id="l5z-mE-lej"/>
                             <constraint firstItem="SEn-ro-RCE" firstAttribute="trailing" secondItem="azb-Vg-Urs" secondAttribute="trailing" id="vp3-zr-342"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="azb-Vg-Urs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Set Questions" image="File3" id="sOG-V7-wRd"/>
                     <connections>
@@ -977,19 +977,19 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option One:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpK-bp-Qjp">
-                                                        <rect key="frame" x="20" y="155" width="93" height="20"/>
+                                                        <rect key="frame" x="20" y="155" width="92" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option two:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvf-mK-bhU">
-                                                        <rect key="frame" x="20" y="245" width="89" height="20"/>
+                                                        <rect key="frame" x="20" y="245" width="88" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option Four:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lho-g7-vq0">
-                                                        <rect key="frame" x="20" y="425" width="96" height="20"/>
+                                                        <rect key="frame" x="20" y="425" width="95" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1001,7 +1001,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option Three:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGx-hQ-RZU">
-                                                        <rect key="frame" x="20" y="335" width="106" height="20"/>
+                                                        <rect key="frame" x="20" y="335" width="104.5" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1158,7 +1158,7 @@
                                                             <outlet property="delegate" destination="RBe-or-jze" id="VKv-P4-Rqa"/>
                                                         </connections>
                                                     </textField>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-GX-uni" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-GX-uni" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="790" width="315" height="40"/>
                                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -1251,6 +1251,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="pjn-ng-Wvi"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="j7a-fk-93b" firstAttribute="top" secondItem="76I-Ge-sLS" secondAttribute="bottom" id="0fl-0N-7W6"/>
@@ -1261,7 +1262,6 @@
                             <constraint firstItem="j7a-fk-93b" firstAttribute="trailing" secondItem="pjn-ng-Wvi" secondAttribute="trailing" id="Hdp-m4-KVj"/>
                             <constraint firstItem="76I-Ge-sLS" firstAttribute="trailing" secondItem="pjn-ng-Wvi" secondAttribute="trailing" id="iQw-4a-EOD"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="pjn-ng-Wvi"/>
                     </view>
                     <size key="freeformSize" width="375" height="952"/>
                     <connections>
@@ -1296,25 +1296,25 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0j-C1-1Jc">
-                                <rect key="frame" x="30" y="415" width="156" height="23"/>
+                                <rect key="frame" x="30" y="415" width="154.5" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaC-la-2pA">
-                                <rect key="frame" x="216" y="414" width="109.5" height="24"/>
+                                <rect key="frame" x="214.5" y="414" width="109" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set No." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFo-RE-6rM">
-                                <rect key="frame" x="216" y="468" width="66.5" height="23"/>
+                                <rect key="frame" x="214.5" y="468" width="66" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNv-qI-ubI">
-                                <rect key="frame" x="30" y="468" width="107.5" height="23"/>
+                                <rect key="frame" x="30" y="468" width="106.5" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1325,7 +1325,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkY-bd-kjb" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkY-bd-kjb" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="581.5" width="315" height="36"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -1391,6 +1391,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="HCl-3r-4QL"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4iu-ag-eef" firstAttribute="bottom" secondItem="2bw-Ec-k1S" secondAttribute="bottom" id="2jB-PC-TMD"/>
@@ -1414,7 +1415,6 @@
                             <constraint firstItem="X0j-C1-1Jc" firstAttribute="leading" secondItem="HCl-3r-4QL" secondAttribute="leading" constant="30" id="w82-s9-2Aa"/>
                             <constraint firstItem="XkY-bd-kjb" firstAttribute="leading" secondItem="HCl-3r-4QL" secondAttribute="leading" constant="30" id="yIG-cV-vk9"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="HCl-3r-4QL"/>
                     </view>
                     <connections>
                         <outlet property="myQrImage" destination="YBP-yB-Vq5" id="qm9-MH-zgy"/>
@@ -1438,7 +1438,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WnU-KJ-V64" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="125" width="375" height="40"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Why-jd-Teo" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Why-jd-Teo" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="172.5" y="2.5" width="200" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="cmK-m6-sGh"/>
@@ -1463,7 +1463,7 @@
                                             <action selector="btnDoneSelecting:" destination="Pbc-w6-lDu" eventType="touchUpInside" id="0oz-mH-AeN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxO-dG-oZF" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxO-dG-oZF" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="2.5" y="2.5" width="60" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="HsG-Wi-o4h"/>
@@ -1530,18 +1530,18 @@
                                                     <rect key="frame" x="10" y="10" width="355" height="144"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qst No." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pma-DI-zvj">
-                                                            <rect key="frame" x="292.5" y="15" width="61" height="20.5"/>
+                                                            <rect key="frame" x="292" y="15" width="61" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Details" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST2-6g-XB5">
-                                                            <rect key="frame" x="127.5" y="103" width="100.5" height="20.5"/>
+                                                            <rect key="frame" x="127.5" y="103" width="100" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKM-2r-qjP" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKM-2r-qjP" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                             <rect key="frame" x="15" y="15" width="60" height="40"/>
                                                             <color key="backgroundColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
@@ -1567,13 +1567,13 @@
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="At8-UQ-TKU">
-                                                            <rect key="frame" x="124.5" y="62.5" width="106.5" height="20.5"/>
+                                                            <rect key="frame" x="124.5" y="62.5" width="106" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level Of Difficulty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HM-7u-JbB">
-                                                            <rect key="frame" x="104.5" y="22.5" width="146" height="20"/>
+                                                            <rect key="frame" x="105" y="22.5" width="145" height="20"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -1653,6 +1653,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6sT-Xy-UmT"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="USp-ej-MQb" firstAttribute="leading" secondItem="6sT-Xy-UmT" secondAttribute="leading" id="4di-ye-19F"/>
@@ -1666,7 +1667,6 @@
                             <constraint firstItem="WnU-KJ-V64" firstAttribute="trailing" secondItem="6sT-Xy-UmT" secondAttribute="trailing" id="tJk-Rx-qwt"/>
                             <constraint firstItem="WnU-KJ-V64" firstAttribute="leading" secondItem="6sT-Xy-UmT" secondAttribute="leading" id="yYC-T1-ZFP"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6sT-Xy-UmT"/>
                     </view>
                     <navigationItem key="navigationItem" id="401-3Y-ufO"/>
                     <connections>
@@ -1757,7 +1757,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQy-yL-MC3" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="125" width="375" height="40"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3e1-jF-ZjR" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3e1-jF-ZjR" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="10" y="2.5" width="45" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="BRO-Fm-vVn"/>
@@ -1782,7 +1782,7 @@
                                             <action selector="BtnBack:" destination="DwK-wj-A0Y" eventType="touchUpInside" id="Bs4-CW-1MO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjW-y3-1Ea" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjW-y3-1Ea" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="305" y="2.5" width="60" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="U46-tF-z4y"/>
@@ -1849,7 +1849,7 @@
                                     <outlet property="delegate" destination="DwK-wj-A0Y" id="UxF-aw-9E1"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZP-yT-ZFp" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZP-yT-ZFp" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="70" y="579.5" width="235" height="36"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -1867,6 +1867,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="ptF-OL-p3r"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gaT-RV-MWj" firstAttribute="leading" secondItem="vN2-Fg-mE9" secondAttribute="leading" id="0Im-Qa-cFK"/>
@@ -1890,7 +1891,6 @@
                             <constraint firstItem="zZP-yT-ZFp" firstAttribute="centerX" secondItem="D2y-2U-RFq" secondAttribute="centerX" id="s0P-b3-n4E"/>
                             <constraint firstItem="uEJ-zl-vLh" firstAttribute="leading" secondItem="MTr-RA-5Nu" secondAttribute="leading" id="tij-bu-jp4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ptF-OL-p3r"/>
                     </view>
                     <navigationItem key="navigationItem" id="SJe-u0-Pcd"/>
                     <connections>
@@ -1957,7 +1957,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1e-JP-DYD">
-                                                            <rect key="frame" x="8" y="82" width="55.5" height="22"/>
+                                                            <rect key="frame" x="8" y="82.5" width="55" height="22"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -1982,7 +1982,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cy9-mD-KK7">
-                                                            <rect key="frame" x="77" y="83" width="54" height="20"/>
+                                                            <rect key="frame" x="76.5" y="83.5" width="54" height="20"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -2050,6 +2050,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="AMc-5w-gRD"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Vgv-dg-QTR" firstAttribute="top" secondItem="MWN-rM-T2c" secondAttribute="top" id="7TF-2E-BRn"/>
@@ -2060,7 +2061,6 @@
                             <constraint firstItem="QCe-6Y-Bok" firstAttribute="leading" secondItem="AMc-5w-gRD" secondAttribute="leading" id="jdu-Dx-5aI"/>
                             <constraint firstItem="Vgv-dg-QTR" firstAttribute="trailing" secondItem="AMc-5w-gRD" secondAttribute="trailing" id="sPN-cv-OBF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="AMc-5w-gRD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Student Profiles" image="File4" id="UTq-0O-eFT"/>
                     <connections>
@@ -2189,13 +2189,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10th % :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pP-Mp-SGW">
-                                                <rect key="frame" x="50" y="458" width="70" height="24"/>
+                                                <rect key="frame" x="50" y="458" width="71" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12th % :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wr-DR-YSG">
-                                                <rect key="frame" x="50" y="492" width="69" height="24"/>
+                                                <rect key="frame" x="50" y="492" width="70.5" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2213,7 +2213,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsu-OC-YCM">
-                                                <rect key="frame" x="145" y="458" width="76" height="24"/>
+                                                <rect key="frame" x="146" y="458" width="76" height="24"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2231,7 +2231,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdP-P1-tns">
-                                                <rect key="frame" x="144" y="492" width="76" height="24"/>
+                                                <rect key="frame" x="145.5" y="492" width="76" height="24"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2296,6 +2296,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="qb0-b8-Hvg"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="YLO-WL-E3x" firstAttribute="leading" secondItem="qb0-b8-Hvg" secondAttribute="leading" id="IRe-zD-d8l"/>
@@ -2308,7 +2309,6 @@
                             <constraint firstItem="PhK-kt-Hqf" firstAttribute="width" secondItem="Te1-rY-C7a" secondAttribute="width" id="nPn-z9-WaU"/>
                             <constraint firstItem="JYt-Us-7DL" firstAttribute="width" secondItem="Te1-rY-C7a" secondAttribute="width" id="saB-3E-Hjb"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="qb0-b8-Hvg"/>
                     </view>
                     <size key="freeformSize" width="375" height="750"/>
                     <connections>
@@ -2391,7 +2391,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vacancy: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5I7-L9-sqQ">
-                                                                    <rect key="frame" x="40" y="66" width="83.5" height="21.5"/>
+                                                                    <rect key="frame" x="40" y="66" width="83" height="21.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -2409,19 +2409,19 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhv-dD-rdI">
-                                                                    <rect key="frame" x="293.5" y="122" width="38" height="20"/>
+                                                                    <rect key="frame" x="293" y="122" width="38" height="20"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jb-wj-MlU">
-                                                                    <rect key="frame" x="293.5" y="94" width="38" height="20"/>
+                                                                    <rect key="frame" x="293" y="94" width="38" height="20"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94u-uQ-CWh">
-                                                                    <rect key="frame" x="293.5" y="67" width="38" height="20"/>
+                                                                    <rect key="frame" x="293" y="67" width="38" height="20"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -2486,7 +2486,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6C-21-qsA" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-nF-T9J" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-nF-T9J" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                 <rect key="frame" x="172.5" y="2.5" width="200" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="6dc-gX-s9r"/>
@@ -2540,6 +2540,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="TVi-2U-wx3"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Hzq-Z7-rEi" firstAttribute="top" secondItem="fkf-IH-us1" secondAttribute="top" id="11t-BK-aya"/>
@@ -2550,7 +2551,6 @@
                             <constraint firstItem="AfM-6R-SNT" firstAttribute="top" secondItem="Hzq-Z7-rEi" secondAttribute="bottom" id="lia-vr-UND"/>
                             <constraint firstItem="Hzq-Z7-rEi" firstAttribute="trailing" secondItem="TVi-2U-wx3" secondAttribute="trailing" id="thn-ot-gev"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="TVi-2U-wx3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Openings" image="File5" id="sgR-Cq-pw8"/>
                     <connections>
@@ -2875,7 +2875,7 @@
                                                     <outlet property="delegate" destination="FCk-gE-32g" id="55H-3l-42f"/>
                                                 </connections>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcV-94-zdt" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcV-94-zdt" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                 <rect key="frame" x="30" y="864.5" width="315" height="40"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -2965,6 +2965,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="oWa-5E-qbx"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ZCN-pa-2Vx" firstAttribute="leading" secondItem="oWa-5E-qbx" secondAttribute="leading" id="1b5-8Q-0r3"/>
@@ -2977,7 +2978,6 @@
                             <constraint firstItem="ZCN-pa-2Vx" firstAttribute="width" secondItem="bq1-CY-JPJ" secondAttribute="width" id="nFo-ye-msS"/>
                             <constraint firstItem="whe-yd-C2l" firstAttribute="top" secondItem="bq1-CY-JPJ" secondAttribute="top" id="ral-wb-77e"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="oWa-5E-qbx"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q2K-xo-Iu3"/>
                     <size key="freeformSize" width="375" height="1000"/>
@@ -3071,7 +3071,7 @@
                                                             <rect key="frame" x="10" y="10" width="355" height="185"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZA-i6-zNH">
-                                                                    <rect key="frame" x="20.5" y="10" width="154.5" height="24"/>
+                                                                    <rect key="frame" x="20.5" y="10" width="154" height="24"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3083,7 +3083,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l56-qP-QQX">
-                                                                    <rect key="frame" x="58.5" y="81" width="78.5" height="21.5"/>
+                                                                    <rect key="frame" x="58.5" y="81" width="78" height="21.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3102,7 +3102,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dD-Hg-tV0">
-                                                                    <rect key="frame" x="20" y="152.5" width="93.5" height="20.5"/>
+                                                                    <rect key="frame" x="20" y="152.5" width="93" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3188,13 +3188,13 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="1hQ-j1-laJ"/>
                         <constraints>
                             <constraint firstItem="pNV-AX-Wep" firstAttribute="leading" secondItem="1hQ-j1-laJ" secondAttribute="leading" id="Dpj-vc-FNy"/>
                             <constraint firstItem="pNV-AX-Wep" firstAttribute="top" secondItem="1hQ-j1-laJ" secondAttribute="top" id="NhO-kB-lsD"/>
                             <constraint firstItem="pNV-AX-Wep" firstAttribute="trailing" secondItem="1hQ-j1-laJ" secondAttribute="trailing" id="kKB-G2-a9Q"/>
                             <constraint firstItem="pNV-AX-Wep" firstAttribute="bottom" secondItem="1hQ-j1-laJ" secondAttribute="bottom" id="wZg-06-sk0"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="1hQ-j1-laJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Booked Test" image="book" id="qpD-IH-Aic"/>
                     <connections>
@@ -3401,7 +3401,7 @@
                                                     <outlet property="delegate" destination="FCk-gE-32g" id="hZo-Gh-qdu"/>
                                                 </connections>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whg-yS-zJE" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whg-yS-zJE" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                 <rect key="frame" x="30" y="522.5" width="315" height="40"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -3420,7 +3420,7 @@
                                                     <action selector="registrationBtn:" destination="FCk-gE-32g" eventType="touchUpInside" id="Jh7-vF-xCL"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKu-FY-7eL" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKu-FY-7eL" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                 <rect key="frame" x="30" y="582.5" width="315" height="40"/>
                                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -3514,6 +3514,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="h5R-3z-bV6"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="e4n-8h-M3U" firstAttribute="width" secondItem="HQq-mO-IZa" secondAttribute="width" id="2Ba-Kd-yhd"/>
@@ -3526,7 +3527,6 @@
                             <constraint firstItem="e4n-8h-M3U" firstAttribute="leading" secondItem="h5R-3z-bV6" secondAttribute="leading" id="uLz-yG-bH4"/>
                             <constraint firstItem="fXs-G8-vy4" firstAttribute="leading" secondItem="h5R-3z-bV6" secondAttribute="leading" id="vm1-PH-U9H"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="h5R-3z-bV6"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Personal" image="businessman" id="PiF-DW-lXU"/>
                     <size key="freeformSize" width="375" height="800"/>
@@ -3597,7 +3597,7 @@
                                                             <rect key="frame" x="10" y="10" width="355" height="188"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-Le-z2B">
-                                                                    <rect key="frame" x="20.5" y="10" width="154.5" height="24"/>
+                                                                    <rect key="frame" x="20.5" y="10" width="154" height="24"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3609,7 +3609,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Technology " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmR-ly-gLl">
-                                                                    <rect key="frame" x="45.5" y="84" width="104.5" height="21.5"/>
+                                                                    <rect key="frame" x="45.5" y="84" width="104" height="21.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3622,13 +3622,13 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your result Status: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gz-Ah-Klg">
-                                                                    <rect key="frame" x="20" y="155.5" width="144.5" height="20"/>
+                                                                    <rect key="frame" x="20" y="155.5" width="144" height="20"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehF-EZ-IdX">
-                                                                    <rect key="frame" x="204.5" y="155.5" width="52" height="20.5"/>
+                                                                    <rect key="frame" x="204" y="155.5" width="52" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -3714,6 +3714,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="De3-4E-zPP"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yTo-a6-Vc6" firstAttribute="bottom" secondItem="De3-4E-zPP" secondAttribute="bottom" id="Ld8-OL-m0U"/>
@@ -3721,7 +3722,6 @@
                             <constraint firstItem="yTo-a6-Vc6" firstAttribute="leading" secondItem="De3-4E-zPP" secondAttribute="leading" id="Qum-5p-SLf"/>
                             <constraint firstItem="yTo-a6-Vc6" firstAttribute="top" secondItem="Th0-ix-Mhn" secondAttribute="top" id="jxH-IZ-m0a"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="De3-4E-zPP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Results" image="bar_chart" id="kHs-te-mRN"/>
                     <connections>
@@ -3783,7 +3783,7 @@
                                                             <rect key="frame" x="10" y="10" width="355" height="195"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1M-bR-Ehv">
-                                                                    <rect key="frame" x="20.5" y="10" width="154.5" height="24"/>
+                                                                    <rect key="frame" x="20.5" y="10" width="154" height="24"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3802,13 +3802,13 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application Ends on: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ji-Ne-L1b">
-                                                                    <rect key="frame" x="20" y="152.5" width="160.5" height="20"/>
+                                                                    <rect key="frame" x="20" y="152.5" width="160" height="20"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wv-av-Qec">
-                                                                    <rect key="frame" x="200.5" y="152.5" width="38.5" height="20"/>
+                                                                    <rect key="frame" x="200" y="152.5" width="38.5" height="20"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -3826,7 +3826,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXB-SM-4bW" userLabel="Location">
-                                                                    <rect key="frame" x="58.5" y="81" width="78.5" height="21.5"/>
+                                                                    <rect key="frame" x="58.5" y="81" width="78" height="21.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -3900,13 +3900,13 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Izi-Im-Zup"/>
                         <constraints>
                             <constraint firstItem="1R5-3N-1IN" firstAttribute="leading" secondItem="Izi-Im-Zup" secondAttribute="leading" id="HgV-F4-pho"/>
                             <constraint firstItem="1R5-3N-1IN" firstAttribute="top" secondItem="UgY-Kz-rH3" secondAttribute="top" id="Qa9-p2-S4V"/>
                             <constraint firstItem="1R5-3N-1IN" firstAttribute="bottom" secondItem="Izi-Im-Zup" secondAttribute="bottom" id="Wow-vw-qfc"/>
                             <constraint firstItem="1R5-3N-1IN" firstAttribute="trailing" secondItem="Izi-Im-Zup" secondAttribute="trailing" id="pXb-Ag-PPg"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Izi-Im-Zup"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Companies" image="briefcase" id="ff4-ed-Qn0"/>
                     <connections>
@@ -4204,7 +4204,7 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjv-Ms-Fe9" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjv-Ms-Fe9" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="1048" width="315" height="40"/>
                                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -4314,6 +4314,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Uif-xt-IiX"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Z31-ws-e8h" firstAttribute="leading" secondItem="Uif-xt-IiX" secondAttribute="leading" id="G7h-kH-FCh"/>
@@ -4325,7 +4326,6 @@
                             <constraint firstItem="TXq-fj-fj6" firstAttribute="leading" secondItem="Uif-xt-IiX" secondAttribute="leading" id="YLr-oj-HVQ"/>
                             <constraint firstItem="TXq-fj-fj6" firstAttribute="top" secondItem="Z31-ws-e8h" secondAttribute="bottom" id="xsQ-0W-Nr7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Uif-xt-IiX"/>
                     </view>
                     <size key="freeformSize" width="375" height="1227"/>
                     <connections>
@@ -4361,7 +4361,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bg1-7i-Nah">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQm-wa-zWX" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQm-wa-zWX" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="30" y="498" width="315" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -4445,13 +4445,13 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="AFz-cq-BAH"/>
                         <constraints>
                             <constraint firstItem="bg1-7i-Nah" firstAttribute="trailing" secondItem="AFz-cq-BAH" secondAttribute="trailing" id="M9c-lg-1rJ"/>
                             <constraint firstItem="bg1-7i-Nah" firstAttribute="top" secondItem="i4O-0p-0Go" secondAttribute="top" id="YrY-3R-Wjd"/>
                             <constraint firstItem="bg1-7i-Nah" firstAttribute="leading" secondItem="AFz-cq-BAH" secondAttribute="leading" id="xay-uT-NR8"/>
                             <constraint firstItem="bg1-7i-Nah" firstAttribute="bottom" secondItem="AFz-cq-BAH" secondAttribute="bottom" id="zig-J6-hSF"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="AFz-cq-BAH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Test" image="ball_point_pen" id="umn-nS-lVm"/>
                     <navigationItem key="navigationItem" id="rWn-vR-dLT"/>
@@ -4499,7 +4499,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZc-Ug-eV9" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="90" width="375" height="40"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bl6-Eu-KdH" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bl6-Eu-KdH" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="285.5" y="2.5" width="87" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="87" id="FTn-CL-fF3"/>
@@ -4525,7 +4525,7 @@
                                             <action selector="nextButton:" destination="Gkv-Tg-85f" eventType="touchUpInside" id="XQh-bx-WfY"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-AY-IGl" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-AY-IGl" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="2.5" y="2.5" width="87" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="iIr-Qp-g4w"/>
@@ -4673,7 +4673,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zp5-aG-dH3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zp5-aG-dH3">
                                 <rect key="frame" x="8" y="252" width="30" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="3oo-zG-hTJ"/>
@@ -4681,13 +4681,13 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="A.">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="opsA:" destination="bG2-Ad-qeM" eventType="touchUpInside" id="Q1O-eO-ANa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqI-fT-qFx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqI-fT-qFx">
                                 <rect key="frame" x="8" y="322" width="30" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="dZj-jh-c45"/>
@@ -4695,13 +4695,13 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="B.">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="opsB:" destination="bG2-Ad-qeM" eventType="touchUpInside" id="ltg-IX-cXM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7b-jO-83X">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7b-jO-83X">
                                 <rect key="frame" x="8" y="392" width="30" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="8FS-AU-eDF"/>
@@ -4709,13 +4709,13 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="C.">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="opsC:" destination="bG2-Ad-qeM" eventType="touchUpInside" id="4nP-Xh-xRO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuz-4i-Q4q">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuz-4i-Q4q">
                                 <rect key="frame" x="8" y="462" width="30" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="FC0-Xh-Ovp"/>
@@ -4723,13 +4723,14 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="D.">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" systemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="opsD:" destination="bG2-Ad-qeM" eventType="touchUpInside" id="WwK-v7-SAj"/>
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="v5b-mf-u6a"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="v5b-mf-u6a" firstAttribute="trailing" secondItem="XR6-2Y-cID" secondAttribute="trailing" constant="15" id="1a7-Og-4Re"/>
@@ -4771,7 +4772,6 @@
                             <constraint firstItem="n7b-jO-83X" firstAttribute="leading" secondItem="v5b-mf-u6a" secondAttribute="leading" constant="8" id="yzi-jf-Fco"/>
                             <constraint firstItem="v5b-mf-u6a" firstAttribute="trailing" secondItem="q1x-fb-EIU" secondAttribute="trailing" constant="15" id="zM3-ZB-JBU"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="v5b-mf-u6a"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Hh-Kv-euP"/>
                     <connections>
@@ -4833,7 +4833,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBC-OA-hw3">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBC-OA-hw3">
                                 <rect key="frame" x="164" y="288" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -4842,13 +4842,13 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="I46-yE-faD"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="AKQ-I0-kgL" firstAttribute="leading" secondItem="I46-yE-faD" secondAttribute="leading" id="4Yo-Fr-6RZ"/>
                             <constraint firstItem="AKQ-I0-kgL" firstAttribute="top" secondItem="l9B-zk-3LD" secondAttribute="top" id="T2A-5X-Sj9"/>
                             <constraint firstItem="AKQ-I0-kgL" firstAttribute="trailing" secondItem="I46-yE-faD" secondAttribute="trailing" id="rsN-qP-MBY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="I46-yE-faD"/>
                     </view>
                     <connections>
                         <outlet property="txtclickme" destination="7Jj-Sx-DhP" id="CX4-LZ-yCi"/>
@@ -4881,7 +4881,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6s-C8-U0d" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6s-C8-U0d" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="500" width="315" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -4961,6 +4961,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wi5-jB-w2O"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ryZ-4N-RSY" firstAttribute="top" secondItem="3ff-Se-os2" secondAttribute="bottom" constant="40" id="2t2-Gf-yvq"/>
@@ -4976,7 +4977,6 @@
                             <constraint firstItem="w6s-C8-U0d" firstAttribute="top" secondItem="Wi5-jB-w2O" secondAttribute="top" constant="500" id="nJp-Tv-mN5"/>
                             <constraint firstItem="ryZ-4N-RSY" firstAttribute="leading" secondItem="Wi5-jB-w2O" secondAttribute="leading" constant="30" id="qSX-5f-onP"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Wi5-jB-w2O"/>
                     </view>
                     <connections>
                         <outlet property="startBtnOutlet" destination="w6s-C8-U0d" id="waD-YX-B7O"/>
@@ -5023,7 +5023,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSA-tT-ngC" customClass="roundedview" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="125" width="375" height="40"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxF-g2-erp" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxF-g2-erp" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                         <rect key="frame" x="2.5" y="2.5" width="87" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="87" id="4gU-4T-cPb"/>
@@ -5066,7 +5066,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLs-37-65H" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLs-37-65H" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="607" width="315" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -5096,6 +5096,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="d2u-pj-iJJ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vVq-TU-XCF" firstAttribute="top" secondItem="DKn-Iw-3bi" secondAttribute="top" id="4dg-0E-hfA"/>
@@ -5111,7 +5112,6 @@
                             <constraint firstItem="U3p-qm-tcU" firstAttribute="leading" secondItem="d2u-pj-iJJ" secondAttribute="leading" constant="16" id="wPF-Il-Gal"/>
                             <constraint firstItem="FSA-tT-ngC" firstAttribute="leading" secondItem="DKn-Iw-3bi" secondAttribute="leading" id="xng-BG-qS1"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="d2u-pj-iJJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wk4-eQ-VC2"/>
                     <connections>
@@ -5152,7 +5152,7 @@
                                     <outlet property="delegate" destination="L28-v3-7Kb" id="SBC-p5-Kud"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bj-EP-3y3" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bj-EP-3y3" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="285" width="315" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -5220,7 +5220,8 @@
                                 </connections>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eDV-AQ-JYt"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="OoT-eS-HP3" firstAttribute="top" secondItem="Oed-tc-oS9" secondAttribute="bottom" constant="20" id="05d-K4-BVi"/>
                             <constraint firstItem="eDV-AQ-JYt" firstAttribute="trailing" secondItem="OoT-eS-HP3" secondAttribute="trailing" constant="30" id="3wQ-YM-w5o"/>
@@ -5235,7 +5236,6 @@
                             <constraint firstItem="Oed-tc-oS9" firstAttribute="leading" secondItem="eDV-AQ-JYt" secondAttribute="leading" constant="30" id="kcn-1k-Cl6"/>
                             <constraint firstItem="2bj-EP-3y3" firstAttribute="top" secondItem="OoT-eS-HP3" secondAttribute="bottom" constant="20" id="lfG-rt-Pmz"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="eDV-AQ-JYt"/>
                     </view>
                     <navigationItem key="navigationItem" id="QZE-DE-VoW"/>
                     <connections>
@@ -5342,7 +5342,7 @@
                                     <outlet property="delegate" destination="L28-v3-7Kb" id="Fa7-pw-SRb"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8e-MO-4uK" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8e-MO-4uK" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="230" width="315" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -5362,7 +5362,7 @@
                                     <action selector="btnGenerateOTP:" destination="Xbn-cq-xfJ" eventType="touchUpInside" id="FPH-B5-fmp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bU-Q3-gbK" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bU-Q3-gbK" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                 <rect key="frame" x="30" y="350" width="315" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -5383,6 +5383,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="XOx-ga-Pvz"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dmn-95-vZl" firstAttribute="top" secondItem="goq-P2-5yo" secondAttribute="top" id="Blr-0G-xQx"/>
@@ -5401,7 +5402,6 @@
                             <constraint firstItem="gNM-50-nlO" firstAttribute="leading" secondItem="XOx-ga-Pvz" secondAttribute="leading" constant="30" id="vNk-hn-J6U"/>
                             <constraint firstItem="2bU-Q3-gbK" firstAttribute="top" secondItem="GCo-UZ-nfp" secondAttribute="bottom" constant="20" id="zpg-vf-AuS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="XOx-ga-Pvz"/>
                     </view>
                     <connections>
                         <outlet property="txtEmail" destination="gNM-50-nlO" id="Hgr-fL-jiH"/>
@@ -5652,7 +5652,7 @@
                                                             <outlet property="delegate" destination="FCk-gE-32g" id="cA1-kx-cwY"/>
                                                         </connections>
                                                     </textField>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVf-H6-w7w" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVf-H6-w7w" customClass="roundedBtn" customModule="QR_Code_Interview_Question" customModuleProvider="target">
                                                         <rect key="frame" x="30" y="480" width="315" height="40"/>
                                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -5724,6 +5724,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="nzj-6p-Dm0"/>
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3Uu-wQ-I5N" firstAttribute="leading" secondItem="nzj-6p-Dm0" secondAttribute="leading" id="FuY-uu-IUw"/>
@@ -5734,7 +5735,6 @@
                             <constraint firstItem="1GK-Dd-0EX" firstAttribute="trailing" secondItem="nzj-6p-Dm0" secondAttribute="trailing" id="rFJ-iB-SI7"/>
                             <constraint firstItem="1GK-Dd-0EX" firstAttribute="leading" secondItem="nzj-6p-Dm0" secondAttribute="leading" id="rpQ-A9-jDQ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="nzj-6p-Dm0"/>
                     </view>
                     <connections>
                         <outlet property="myImage" destination="Xuj-jp-sDm" id="g3V-M6-nPY"/>
@@ -5761,6 +5761,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="j1m-ia-3ef"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="j1m-ia-3ef" firstAttribute="bottom" secondItem="NM1-Ub-A7I" secondAttribute="bottom" id="4ji-Sd-blH"/>
@@ -5768,7 +5769,6 @@
                             <constraint firstItem="NM1-Ub-A7I" firstAttribute="leading" secondItem="j1m-ia-3ef" secondAttribute="leading" id="N9q-Be-D8q"/>
                             <constraint firstItem="j1m-ia-3ef" firstAttribute="trailing" secondItem="NM1-Ub-A7I" secondAttribute="trailing" id="Tjg-Bn-6tp"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="j1m-ia-3ef"/>
                     </view>
                     <connections>
                         <outlet property="square" destination="NM1-Ub-A7I" id="Slh-WQ-4ni"/>
@@ -5796,8 +5796,193 @@
             <point key="canvasLocation" x="658" y="-775"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="0D0-9g-M6l">
+            <size key="intrinsicContentSize" width="199" height="34"/>
+        </designable>
+        <designable name="1Bx-ME-q7R">
+            <size key="intrinsicContentSize" width="98.5" height="34"/>
+        </designable>
+        <designable name="1TJ-j6-5Sk">
+            <size key="intrinsicContentSize" width="172" height="34"/>
+        </designable>
+        <designable name="2bU-Q3-gbK">
+            <size key="intrinsicContentSize" width="157" height="38"/>
+        </designable>
+        <designable name="2bj-EP-3y3">
+            <size key="intrinsicContentSize" width="71" height="38"/>
+        </designable>
+        <designable name="2l7-sA-zIS">
+            <size key="intrinsicContentSize" width="169" height="34"/>
+        </designable>
+        <designable name="3EV-fJ-rUn">
+            <size key="intrinsicContentSize" width="202.5" height="34"/>
+        </designable>
+        <designable name="3P8-yS-cPh">
+            <size key="intrinsicContentSize" width="174.5" height="34"/>
+        </designable>
+        <designable name="3Wf-bu-ASf">
+            <size key="intrinsicContentSize" width="176.5" height="34"/>
+        </designable>
+        <designable name="3e1-jF-ZjR">
+            <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
+        <designable name="4so-AR-CiF">
+            <size key="intrinsicContentSize" width="142" height="34"/>
+        </designable>
+        <designable name="7TY-D4-tFd">
+            <size key="intrinsicContentSize" width="185.5" height="34"/>
+        </designable>
+        <designable name="Bl6-Eu-KdH">
+            <size key="intrinsicContentSize" width="43" height="33"/>
+        </designable>
+        <designable name="C6F-WE-x99">
+            <size key="intrinsicContentSize" width="207.5" height="34"/>
+        </designable>
+        <designable name="CFa-6d-G3D">
+            <size key="intrinsicContentSize" width="179" height="34"/>
+        </designable>
+        <designable name="GCo-UZ-nfp">
+            <size key="intrinsicContentSize" width="216.5" height="34"/>
+        </designable>
+        <designable name="ISG-4Y-oEX">
+            <size key="intrinsicContentSize" width="120" height="38"/>
+        </designable>
+        <designable name="Inl-he-hh4">
+            <size key="intrinsicContentSize" width="205.5" height="34"/>
+        </designable>
+        <designable name="JbI-GX-uni">
+            <size key="intrinsicContentSize" width="169" height="38"/>
+        </designable>
+        <designable name="K9o-iA-TgJ">
+            <size key="intrinsicContentSize" width="164" height="34"/>
+        </designable>
+        <designable name="MTr-RA-5Nu">
+            <size key="intrinsicContentSize" width="133" height="34"/>
+        </designable>
+        <designable name="Oed-tc-oS9">
+            <size key="intrinsicContentSize" width="190.5" height="34"/>
+        </designable>
+        <designable name="Ohk-bu-5XW">
+            <size key="intrinsicContentSize" width="127" height="34"/>
+        </designable>
+        <designable name="OoT-eS-HP3">
+            <size key="intrinsicContentSize" width="180.5" height="34"/>
+        </designable>
+        <designable name="Qia-UY-Joi">
+            <size key="intrinsicContentSize" width="69" height="38"/>
+        </designable>
+        <designable name="Rpr-yl-XQz">
+            <size key="intrinsicContentSize" width="160" height="33"/>
+        </designable>
+        <designable name="RxO-dG-oZF">
+            <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
+        <designable name="VOP-j4-OSf">
+            <size key="intrinsicContentSize" width="164" height="34"/>
+        </designable>
+        <designable name="Why-jd-Teo">
+            <size key="intrinsicContentSize" width="127" height="33"/>
+        </designable>
+        <designable name="Wsn-nF-T9J">
+            <size key="intrinsicContentSize" width="190" height="33"/>
+        </designable>
+        <designable name="X2g-UF-t9G">
+            <size key="intrinsicContentSize" width="189.5" height="34"/>
+        </designable>
+        <designable name="XkY-bd-kjb">
+            <size key="intrinsicContentSize" width="195" height="36"/>
+        </designable>
+        <designable name="Y8S-EP-KDN">
+            <size key="intrinsicContentSize" width="187.5" height="34"/>
+        </designable>
+        <designable name="YWH-RV-hwX">
+            <size key="intrinsicContentSize" width="203.5" height="34"/>
+        </designable>
+        <designable name="bWm-dy-icC">
+            <size key="intrinsicContentSize" width="177.5" height="34"/>
+        </designable>
+        <designable name="bjW-y3-1Ea">
+            <size key="intrinsicContentSize" width="43" height="33"/>
+        </designable>
+        <designable name="dDW-GT-JQ1">
+            <size key="intrinsicContentSize" width="203" height="34"/>
+        </designable>
+        <designable name="dxF-g2-erp">
+            <size key="intrinsicContentSize" width="41" height="33"/>
+        </designable>
+        <designable name="e8e-MO-4uK">
+            <size key="intrinsicContentSize" width="142" height="38"/>
+        </designable>
+        <designable name="eQm-wa-zWX">
+            <size key="intrinsicContentSize" width="134" height="36"/>
+        </designable>
+        <designable name="fCM-AY-IGl">
+            <size key="intrinsicContentSize" width="71" height="33"/>
+        </designable>
+        <designable name="fCk-o0-Ol5">
+            <size key="intrinsicContentSize" width="186" height="34"/>
+        </designable>
+        <designable name="fcV-94-zdt">
+            <size key="intrinsicContentSize" width="56" height="36"/>
+        </designable>
+        <designable name="gNM-50-nlO">
+            <size key="intrinsicContentSize" width="206" height="34"/>
+        </designable>
+        <designable name="iKM-2r-qjP">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="kVf-H6-w7w">
+            <size key="intrinsicContentSize" width="83" height="38"/>
+        </designable>
+        <designable name="mjv-Ms-Fe9">
+            <size key="intrinsicContentSize" width="97" height="38"/>
+        </designable>
+        <designable name="sLs-37-65H">
+            <size key="intrinsicContentSize" width="81" height="36"/>
+        </designable>
+        <designable name="sP9-Ax-fsT">
+            <size key="intrinsicContentSize" width="55" height="38"/>
+        </designable>
+        <designable name="t1O-N1-YxH">
+            <size key="intrinsicContentSize" width="188.5" height="34"/>
+        </designable>
+        <designable name="tJs-nv-3jt">
+            <size key="intrinsicContentSize" width="133" height="34"/>
+        </designable>
+        <designable name="taW-8J-CPW">
+            <size key="intrinsicContentSize" width="210.5" height="34"/>
+        </designable>
+        <designable name="u3s-Uh-Utk">
+            <size key="intrinsicContentSize" width="133" height="34"/>
+        </designable>
+        <designable name="uEJ-zl-vLh">
+            <size key="intrinsicContentSize" width="142" height="34"/>
+        </designable>
+        <designable name="uRv-yd-CYc">
+            <size key="intrinsicContentSize" width="154" height="33"/>
+        </designable>
+        <designable name="w6s-C8-U0d">
+            <size key="intrinsicContentSize" width="92" height="36"/>
+        </designable>
+        <designable name="wFp-G0-sgo">
+            <size key="intrinsicContentSize" width="58" height="38"/>
+        </designable>
+        <designable name="whg-yS-zJE">
+            <size key="intrinsicContentSize" width="48" height="36"/>
+        </designable>
+        <designable name="zKu-FY-7eL">
+            <size key="intrinsicContentSize" width="61" height="36"/>
+        </designable>
+        <designable name="zZP-yT-ZFp">
+            <size key="intrinsicContentSize" width="174" height="36"/>
+        </designable>
+        <designable name="zcN-9a-Yd7">
+            <size key="intrinsicContentSize" width="167.5" height="34"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="zi8-Pu-N1K"/>
+        <segue reference="0Xf-fY-hdP"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
@@ -5813,5 +5998,17 @@
         <image name="briefcase" width="30" height="30"/>
         <image name="businessman" width="30" height="30"/>
         <image name="icon-close" width="24" height="24"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
